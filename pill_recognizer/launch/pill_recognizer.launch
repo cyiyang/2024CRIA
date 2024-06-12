@@ -1,0 +1,3 @@
+<launch>
+	<node pkg="pill_recognizer" type="pilltest.py" name="pill_recognizer" output="screen"/>
+</launch>

@@ -1,0 +1,5 @@
+<launch>
+    <node pkg="char_recognizer" type="recognizer.py" name="char_recognizer" output="screen" >  
+        <param name="msg" type="string" value="/camera/rgb/image_raw"/>
+    </node>
+</launch>

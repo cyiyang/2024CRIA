@@ -1,0 +1,4 @@
+bool signal_letter
+---
+string letter_string
+#EXAMPLE A1A2C3N4

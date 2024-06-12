@@ -1,0 +1,5 @@
+# 客户端请求
+uint64 mode
+---
+# 服务器响应
+string str

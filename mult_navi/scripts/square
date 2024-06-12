@@ -1,0 +1,13 @@
+import numpy as np
+import cv2
+# 定义图像大小和颜色
+image_size = 200  # 图像尺寸
+color = 0  # 黑色
+
+# 创建黑色正方形图像
+image = np.zeros((image_size, image_size), dtype=np.uint8)
+
+# 显示图像
+cv2.imshow('Black Square Image', image)
+cv2.waitKey(0)
+cv2.destroyAllWindows()

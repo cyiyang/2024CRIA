@@ -1,0 +1,4 @@
+<launch>
+     <include file="$(find robot_navigation)/launch/navigation_rviz.launch"/>
+      <!--<include file="$(find astra_camera)/launch/astra_self.launch"/>-->
+</launch>
